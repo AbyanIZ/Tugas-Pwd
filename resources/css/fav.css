@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.favorites-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 14px;
+}
+
+.movie-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.movie-image img {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-info h2 {
+    margin: 0 0 10px 0;
+}
+
+.movie-info p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.movie-info a {
+    color: #4fa1f0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookmark-icon {
+    font-size: 24px;
+    color: #ffc107;
+}
