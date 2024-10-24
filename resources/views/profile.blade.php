@@ -15,7 +15,7 @@
         <div class="profile-info">
             <div class="profile-item">
                 <label>Username:</label>
-                <input type="text" value="Mister Louis" readonly>
+                <input type="text" value="{{ Auth::user()->name }}" readonly>
             </div>
             <div class="profile-item">
                 <label>Password:</label>
@@ -27,7 +27,10 @@
             <div class="profile-item">
                 <button class="info-button">Film history</button>
             </div>
-            <button class="logout-button">Logout</button>
+            <form method="POST" action="{{ route('logout') }}">
+                @csrf
+                <button type="submit" class="logout-button">Logout</button>
+            </form>
         </div>
     </div>
 </body>

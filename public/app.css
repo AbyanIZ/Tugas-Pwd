@@ -6,6 +6,11 @@ body {
     padding: 20px;
 }
 
+#profil{
+    margin-left: 1200px;
+    position: absolute;
+}
+
 header {
     display: flex;
     justify-content: center;
